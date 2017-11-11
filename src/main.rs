@@ -1,4 +1,4 @@
-#[macro_use] extern crate failure_derive;
+//#[macro_use] extern crate failure_derive;
 extern crate clap;
 extern crate failure;
 extern crate git2;
