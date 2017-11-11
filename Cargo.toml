@@ -1,0 +1,15 @@
+[package]
+name = "we-git-you"
+version = "0.1.0"
+authors = ["Michael Gattozzi <mgattozzi@gmail.com>"]
+description = "Because git shouldn't be hard."
+
+[[bin]]
+name = "wgu"
+path = "src/main.rs"
+
+[dependencies]
+clap = "*"
+failure = "*"
+failure_derive = "*"
+git2 = "*"
